@@ -2,6 +2,8 @@
 
 import { useMemo, useState } from "react";
 
+type ChatMessage = { role: "user" | "assistant"; content: string };
+
 const destinations = [
   {
     era: "Florence, 1504",
@@ -63,9 +65,7 @@ export default function Home() {
   const [chatOpen, setChatOpen] = useState(true);
   const [selectedEra, setSelectedEra] = useState(destinations[0].era);
   const [heroIndex, setHeroIndex] = useState(0);
-  const [chatMessages, setChatMessages] = useState<
-    { role: "user" | "assistant"; content: string }[]
-  >([
+  const [chatMessages, setChatMessages] = useState<ChatMessage[]>([
     {
       role: "assistant",
       content:
@@ -98,7 +98,10 @@ export default function Home() {
     }
 
     setChatError(null);
-    const nextMessages = [...chatMessages, { role: "user", content: trimmed }];
+    const nextMessages: ChatMessage[] = [
+      ...chatMessages,
+      { role: "user", content: trimmed }
+    ];
     setChatMessages(nextMessages);
     setChatInput("");
     setChatLoading(true);
