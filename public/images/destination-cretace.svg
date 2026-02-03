@@ -1,0 +1,8 @@
+<svg width="800" height="520" viewBox="0 0 800 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="520" fill="#0C0B12"/>
+  <rect x="40" y="60" width="720" height="400" rx="40" fill="#121A1B"/>
+  <path d="M80 360 C 240 300, 360 420, 520 330 C 660 250, 720 360, 760 330" stroke="#7EE081" stroke-opacity="0.5" stroke-width="2"/>
+  <circle cx="220" cy="190" r="100" fill="#7EE081" fill-opacity="0.2"/>
+  <circle cx="620" cy="160" r="90" fill="#A5F3A7" fill-opacity="0.18"/>
+  <text x="80" y="110" fill="#7EE081" font-size="20" font-family="Arial" letter-spacing="6">CRETACE -65M</text>
+</svg>

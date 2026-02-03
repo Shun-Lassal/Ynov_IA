@@ -1,0 +1,8 @@
+<svg width="800" height="520" viewBox="0 0 800 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="520" fill="#0C0B12"/>
+  <rect x="40" y="60" width="720" height="400" rx="40" fill="#181622"/>
+  <path d="M80 360 C 220 260, 320 420, 480 320 C 620 220, 700 320, 760 300" stroke="#C8A75E" stroke-opacity="0.5" stroke-width="2"/>
+  <circle cx="160" cy="180" r="80" fill="#C8A75E" fill-opacity="0.25"/>
+  <circle cx="620" cy="140" r="90" fill="#5B6CFF" fill-opacity="0.18"/>
+  <text x="80" y="110" fill="#C8A75E" font-size="20" font-family="Arial" letter-spacing="6">FLORENCE 1504</text>
+</svg>

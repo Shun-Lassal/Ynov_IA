@@ -1,0 +1,8 @@
+<svg width="800" height="520" viewBox="0 0 800 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="520" fill="#0C0B12"/>
+  <rect x="40" y="60" width="720" height="400" rx="40" fill="#141321"/>
+  <path d="M60 360 C 220 260, 360 420, 520 300 C 660 200, 720 310, 780 280" stroke="#8EA6FF" stroke-opacity="0.5" stroke-width="2"/>
+  <circle cx="200" cy="170" r="90" fill="#5B6CFF" fill-opacity="0.25"/>
+  <circle cx="620" cy="200" r="120" fill="#8EA6FF" fill-opacity="0.2"/>
+  <text x="80" y="110" fill="#8EA6FF" font-size="20" font-family="Arial" letter-spacing="6">KYOTO 2144</text>
+</svg>

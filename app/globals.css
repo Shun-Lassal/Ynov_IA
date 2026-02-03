@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-noir text-ivory antialiased;
+}
+
+::selection {
+  background: rgba(197, 154, 91, 0.45);
+  color: #050607;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.glass-surface {
+  background: linear-gradient(140deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.02));
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(20px);
+}
+
+.hero-mask {
+  mask-image: radial-gradient(circle at 50% 40%, rgba(0, 0, 0, 1) 45%, rgba(0, 0, 0, 0) 100%);
+}
+
+.card-sheen {
+  background: linear-gradient(135deg, rgba(229, 207, 164, 0.18), rgba(106, 164, 185, 0.12));
+}
+
+.chat-glow {
+  box-shadow: 0 0 40px rgba(197, 154, 91, 0.18);
+}

@@ -1,0 +1,8 @@
+<svg width="800" height="520" viewBox="0 0 800 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="520" fill="#0C0B12"/>
+  <rect x="40" y="60" width="720" height="400" rx="40" fill="#19151E"/>
+  <path d="M80 360 C 220 320, 340 400, 520 320 C 660 260, 720 340, 760 320" stroke="#F7B267" stroke-opacity="0.5" stroke-width="2"/>
+  <circle cx="220" cy="190" r="100" fill="#F7B267" fill-opacity="0.2"/>
+  <circle cx="600" cy="150" r="80" fill="#C8A75E" fill-opacity="0.25"/>
+  <text x="80" y="110" fill="#F7B267" font-size="20" font-family="Arial" letter-spacing="6">SAHARA -80 000</text>
+</svg>
