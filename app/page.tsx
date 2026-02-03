@@ -125,7 +125,10 @@ export default function Home() {
         throw new Error("Réponse vide.");
       }
 
-      setChatMessages((prev) => [...prev, { role: "assistant", content: data.reply }]);
+      setChatMessages((prev) => [
+        ...prev,
+        { role: "assistant", content: data.reply ?? "" }
+      ]);
     } catch (error) {
       const message =
         error instanceof Error ? error.message : "Impossible de joindre le concierge IA.";
