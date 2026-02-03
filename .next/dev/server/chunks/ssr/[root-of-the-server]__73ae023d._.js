@@ -143,7 +143,7 @@ function Home() {
         className: "min-h-screen bg-noir text-ivory",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
-                className: "relative min-h-[100vh] overflow-hidden",
+                className: "relative min-h-[92vh] overflow-hidden sm:min-h-[100vh]",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
                         className: "absolute inset-0 h-full w-full object-cover opacity-65 hero-mask animate-fadeIn",
@@ -187,13 +187,13 @@ function Home() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "relative z-10 mx-auto flex w-full max-w-6xl flex-col gap-16 px-6 pb-24 pt-10",
+                        className: "relative z-10 mx-auto flex w-full max-w-6xl flex-col gap-10 px-5 pb-16 pt-8 sm:gap-16 sm:px-6 sm:pb-24 sm:pt-10",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-                                className: "flex items-center justify-between text-[11px] uppercase tracking-[0.35em] text-ivory/70 animate-fadeUp",
+                                className: "flex items-center justify-between text-[10px] uppercase tracking-[0.3em] text-ivory/70 animate-fadeUp sm:text-[11px] sm:tracking-[0.35em]",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "font-[var(--font-display)] text-sm tracking-[0.45em] text-ivory",
+                                        className: "font-[var(--font-display)] text-xs tracking-[0.4em] text-ivory sm:text-sm sm:tracking-[0.45em]",
                                         children: "TimeTravel Agency"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
@@ -246,7 +246,7 @@ function Home() {
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        className: "rounded-full border border-white/20 px-5 py-2 text-[10px] tracking-[0.3em] transition hover:border-champagne hover:text-champagne",
+                                        className: "rounded-full border border-white/20 px-4 py-2 text-[9px] tracking-[0.25em] transition hover:border-champagne hover:text-champagne sm:px-5 sm:text-[10px] sm:tracking-[0.3em]",
                                         children: "Accès privé"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
@@ -266,7 +266,7 @@ function Home() {
                                         className: "space-y-8 animate-fadeUp",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-[11px] uppercase tracking-[0.5em] text-champagne",
+                                                className: "text-[10px] uppercase tracking-[0.45em] text-champagne sm:text-[11px] sm:tracking-[0.5em]",
                                                 children: "Chrono concierge"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
@@ -274,7 +274,7 @@ function Home() {
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                className: "font-[var(--font-display)] text-4xl leading-tight md:text-5xl lg:text-6xl",
+                                                className: "font-[var(--font-display)] text-3xl leading-tight sm:text-4xl md:text-5xl lg:text-6xl",
                                                 children: "Des voyages temporels épurés, calibrés pour l’extraordinaire."
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
@@ -282,7 +282,7 @@ function Home() {
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "max-w-xl text-base text-ivory/70 md:text-lg",
+                                                className: "max-w-xl text-sm text-ivory/70 sm:text-base md:text-lg",
                                                 children: "TimeTravel Agency orchestre des escapades privées avec une précision horlogère : protocole discret, sécurité totale et élégance intemporelle."
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
@@ -294,7 +294,7 @@ function Home() {
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                         href: "#destinations",
-                                                        className: "rounded-full bg-champagne px-6 py-3 text-xs font-semibold uppercase tracking-[0.3em] text-noir shadow-halo transition hover:scale-[1.02]",
+                                                        className: "w-full rounded-full bg-champagne px-6 py-3 text-xs font-semibold uppercase tracking-[0.3em] text-noir shadow-halo transition hover:scale-[1.02] sm:w-auto",
                                                         children: "Explorer les époques"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.tsx",
@@ -303,7 +303,7 @@ function Home() {
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                         href: "#reservation",
-                                                        className: "rounded-full border border-white/30 px-6 py-3 text-xs uppercase tracking-[0.25em] text-ivory/80 transition hover:border-champagne hover:text-champagne",
+                                                        className: "w-full rounded-full border border-white/30 px-6 py-3 text-xs uppercase tracking-[0.25em] text-ivory/80 transition hover:border-champagne hover:text-champagne sm:w-auto",
                                                         children: "Demander une invitation"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.tsx",
@@ -326,10 +326,10 @@ function Home() {
                                         className: "space-y-6",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "glass-surface rounded-[28px] p-6 shadow-glass animate-fadeUp",
+                                                className: "glass-surface rounded-[24px] p-5 shadow-glass animate-fadeUp sm:rounded-[28px] sm:p-6",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "text-[11px] uppercase tracking-[0.35em] text-champagne",
+                                                        className: "text-[10px] uppercase tracking-[0.3em] text-champagne sm:text-[11px] sm:tracking-[0.35em]",
                                                         children: "Brief privé"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.tsx",
@@ -337,7 +337,7 @@ function Home() {
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "mt-4 text-lg font-semibold",
+                                                        className: "mt-4 text-base font-semibold sm:text-lg",
                                                         children: "Trois destinations. Une signature sur-mesure."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.tsx",
@@ -378,10 +378,10 @@ function Home() {
                                                         value: "24/7"
                                                     }
                                                 ].map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "rounded-[22px] border border-white/10 bg-midnight/70 p-4 animate-fadeUp",
+                                                        className: "rounded-[20px] border border-white/10 bg-midnight/70 p-4 animate-fadeUp sm:rounded-[22px]",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                className: "text-[10px] uppercase tracking-[0.3em] text-ivory/50",
+                                                                className: "text-[9px] uppercase tracking-[0.28em] text-ivory/50 sm:text-[10px] sm:tracking-[0.3em]",
                                                                 children: item.label
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/page.tsx",
@@ -389,7 +389,7 @@ function Home() {
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                className: "mt-3 text-lg font-semibold text-champagne",
+                                                                className: "mt-3 text-base font-semibold text-champagne sm:text-lg",
                                                                 children: item.value
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/page.tsx",
@@ -433,9 +433,9 @@ function Home() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 id: "agency",
-                className: "mx-auto max-w-6xl px-6 py-24",
+                className: "mx-auto max-w-6xl px-5 py-16 sm:px-6 sm:py-24",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "glass-surface rounded-[36px] p-10 md:p-16 animate-fadeUp",
+                    className: "glass-surface rounded-[32px] p-8 animate-fadeUp sm:rounded-[36px] sm:p-10 md:p-16",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "grid gap-10 lg:grid-cols-[1.1fr_0.9fr]",
                         children: [
@@ -443,7 +443,7 @@ function Home() {
                                 className: "space-y-6",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-[11px] uppercase tracking-[0.5em] text-champagne",
+                                        className: "text-[10px] uppercase tracking-[0.45em] text-champagne sm:text-[11px] sm:tracking-[0.5em]",
                                         children: "Présentation"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
@@ -451,7 +451,7 @@ function Home() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                        className: "font-[var(--font-display)] text-3xl md:text-4xl",
+                                        className: "font-[var(--font-display)] text-2xl sm:text-3xl md:text-4xl",
                                         children: "Une maison de voyages temporels confidentielle et radicalement élégante."
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
@@ -470,7 +470,7 @@ function Home() {
                                         className: "flex flex-wrap gap-4",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                className: "rounded-full border border-white/20 px-5 py-2 text-[10px] uppercase tracking-[0.3em] text-ivory/70",
+                                                className: "rounded-full border border-white/20 px-4 py-2 text-[9px] uppercase tracking-[0.25em] text-ivory/70 sm:px-5 sm:text-[10px] sm:tracking-[0.3em]",
                                                 children: "Charte éthique"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
@@ -478,7 +478,7 @@ function Home() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                className: "rounded-full border border-white/20 px-5 py-2 text-[10px] uppercase tracking-[0.3em] text-ivory/70",
+                                                className: "rounded-full border border-white/20 px-4 py-2 text-[9px] uppercase tracking-[0.25em] text-ivory/70 sm:px-5 sm:text-[10px] sm:tracking-[0.3em]",
                                                 children: "Conseil scientifique"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
@@ -513,10 +513,10 @@ function Home() {
                                         value: "312 explorateurs"
                                     }
                                 ].map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "rounded-[26px] border border-white/10 bg-midnight/70 p-6 animate-fadeUp",
+                                        className: "rounded-[24px] border border-white/10 bg-midnight/70 p-5 animate-fadeUp sm:rounded-[26px] sm:p-6",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-[11px] uppercase tracking-[0.35em] text-ivory/50",
+                                                className: "text-[10px] uppercase tracking-[0.3em] text-ivory/50 sm:text-[11px] sm:tracking-[0.35em]",
                                                 children: item.label
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
@@ -524,7 +524,7 @@ function Home() {
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "mt-3 text-2xl font-semibold text-champagne",
+                                                className: "mt-3 text-xl font-semibold text-champagne sm:text-2xl",
                                                 children: item.value
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
@@ -560,7 +560,7 @@ function Home() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 id: "destinations",
-                className: "mx-auto max-w-6xl px-6 py-24",
+                className: "mx-auto max-w-6xl px-5 py-16 sm:px-6 sm:py-24",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "flex flex-wrap items-end justify-between gap-6",
@@ -568,7 +568,7 @@ function Home() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-[11px] uppercase tracking-[0.5em] text-champagne",
+                                        className: "text-[10px] uppercase tracking-[0.45em] text-champagne sm:text-[11px] sm:tracking-[0.5em]",
                                         children: "Galerie"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
@@ -576,7 +576,7 @@ function Home() {
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                        className: "mt-4 font-[var(--font-display)] text-3xl md:text-4xl",
+                                        className: "mt-4 font-[var(--font-display)] text-2xl sm:text-3xl md:text-4xl",
                                         children: "Trois époques, trois signatures d’exception."
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
@@ -591,7 +591,7 @@ function Home() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 href: "#reservation",
-                                className: "rounded-full border border-champagne/60 px-6 py-3 text-xs uppercase tracking-[0.3em] text-champagne transition hover:bg-champagne hover:text-noir",
+                                className: "w-full rounded-full border border-champagne/60 px-6 py-3 text-xs uppercase tracking-[0.3em] text-champagne transition hover:bg-champagne hover:text-noir sm:w-auto",
                                 children: "CTA vers les destinations"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
@@ -605,9 +605,9 @@ function Home() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3",
+                        className: "mt-10 grid gap-6 sm:mt-12 sm:gap-8 sm:grid-cols-2 lg:grid-cols-3",
                         children: destinations.map((card)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
-                                className: "group relative flex h-full flex-col overflow-hidden rounded-[28px] border border-white/10 bg-midnight/80 p-6 shadow-deep transition duration-500 hover:-translate-y-2 animate-fadeUp",
+                                className: "group relative flex h-full flex-col overflow-hidden rounded-[24px] border border-white/10 bg-midnight/80 p-5 shadow-deep transition duration-500 hover:-translate-y-2 animate-fadeUp sm:rounded-[28px] sm:p-6",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "pointer-events-none absolute inset-0 card-sheen opacity-0 transition duration-500 group-hover:opacity-100"
@@ -620,7 +620,7 @@ function Home() {
                                         className: "relative z-10 flex h-full flex-col",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "flex items-center justify-between text-[11px] uppercase tracking-[0.3em] text-ivory/60",
+                                                className: "flex items-center justify-between text-[10px] uppercase tracking-[0.28em] text-ivory/60 sm:text-[11px] sm:tracking-[0.3em]",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         children: card.era
@@ -647,7 +647,7 @@ function Home() {
                                                 className: "relative mt-6 overflow-hidden rounded-2xl border border-white/10",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
-                                                        className: "h-40 w-full object-cover transition duration-500 group-hover:scale-105",
+                                                        className: "h-36 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-40",
                                                         autoPlay: true,
                                                         muted: true,
                                                         loop: true,
@@ -688,7 +688,7 @@ function Home() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                className: "mt-6 font-[var(--font-display)] text-2xl",
+                                                className: "mt-6 font-[var(--font-display)] text-xl sm:text-2xl",
                                                 children: card.name
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
@@ -696,7 +696,7 @@ function Home() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "mt-5 text-sm text-ivory/70",
+                                                className: "mt-4 text-sm text-ivory/70 sm:mt-5",
                                                 children: card.summary
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
@@ -704,7 +704,7 @@ function Home() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                className: "mt-5 flex-1 space-y-3 text-sm text-ivory/70",
+                                                className: "mt-4 flex-1 space-y-3 text-sm text-ivory/70 sm:mt-5",
                                                 children: card.details.map((detail)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         className: "flex items-start gap-2",
                                                         children: [
@@ -735,7 +735,7 @@ function Home() {
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                 href: "#reservation",
-                                                className: "mt-10 mt-auto inline-flex items-center justify-center rounded-full border border-white/20 px-5 py-2 text-[10px] uppercase tracking-[0.3em] text-ivory/70 transition group-hover:border-champagne group-hover:text-champagne",
+                                                className: "mt-8 mt-auto inline-flex items-center justify-center rounded-full border border-white/20 px-5 py-2 text-[10px] uppercase tracking-[0.3em] text-ivory/70 transition group-hover:border-champagne group-hover:text-champagne sm:mt-10",
                                                 children: "Consulter l’itinéraire"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
@@ -767,15 +767,15 @@ function Home() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 id: "concierge",
-                className: "relative mx-auto max-w-6xl px-6 py-24",
+                className: "relative mx-auto max-w-6xl px-5 py-16 sm:px-6 sm:py-24",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid gap-12 rounded-[44px] border border-white/10 bg-midnight/80 p-10 md:grid-cols-[1.05fr_0.95fr] md:p-16 animate-fadeUp",
+                    className: "grid gap-10 rounded-[36px] border border-white/10 bg-midnight/80 p-8 md:grid-cols-[1.05fr_0.95fr] md:p-16 animate-fadeUp sm:gap-12 sm:rounded-[44px] sm:p-10",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "space-y-6",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-[11px] uppercase tracking-[0.5em] text-champagne",
+                                    className: "text-[10px] uppercase tracking-[0.45em] text-champagne sm:text-[11px] sm:tracking-[0.5em]",
                                     children: "Concierge IA"
                                 }, void 0, false, {
                                     fileName: "[project]/app/page.tsx",
@@ -783,7 +783,7 @@ function Home() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "font-[var(--font-display)] text-3xl md:text-4xl",
+                                    className: "font-[var(--font-display)] text-2xl sm:text-3xl md:text-4xl",
                                     children: "Un agent discret pour affiner chaque décision."
                                 }, void 0, false, {
                                     fileName: "[project]/app/page.tsx",
@@ -839,7 +839,7 @@ function Home() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex items-center justify-center",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "relative w-full max-w-sm rounded-[32px] border border-white/10 bg-noir/80 p-6 shadow-deep animate-floatSoft",
+                                className: "relative w-full max-w-sm rounded-[28px] border border-white/10 bg-noir/80 p-5 shadow-deep animate-floatSoft sm:rounded-[32px] sm:p-6",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "flex items-center justify-between",
@@ -964,15 +964,15 @@ function Home() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 id: "reservation",
-                className: "mx-auto max-w-6xl px-6 pb-32 pt-10",
+                className: "mx-auto max-w-6xl px-5 pb-24 pt-8 sm:px-6 sm:pb-32 sm:pt-10",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid gap-12 rounded-[40px] border border-white/10 bg-midnight/80 p-10 md:grid-cols-[1.1fr_0.9fr] md:p-16 animate-fadeUp",
+                    className: "grid gap-10 rounded-[36px] border border-white/10 bg-midnight/80 p-8 md:grid-cols-[1.1fr_0.9fr] md:p-16 animate-fadeUp sm:gap-12 sm:rounded-[40px] sm:p-10",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "space-y-6",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-[11px] uppercase tracking-[0.5em] text-champagne",
+                                    className: "text-[10px] uppercase tracking-[0.45em] text-champagne sm:text-[11px] sm:tracking-[0.5em]",
                                     children: "Réservation"
                                 }, void 0, false, {
                                     fileName: "[project]/app/page.tsx",
@@ -980,7 +980,7 @@ function Home() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "font-[var(--font-display)] text-3xl md:text-4xl",
+                                    className: "font-[var(--font-display)] text-2xl sm:text-3xl md:text-4xl",
                                     children: "Réservez votre trajectoire privée, en toute discrétion."
                                 }, void 0, false, {
                                     fileName: "[project]/app/page.tsx",
@@ -1016,7 +1016,7 @@ function Home() {
                                     className: "space-y-2",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                            className: "text-[10px] uppercase tracking-[0.3em] text-ivory/60",
+                                            className: "text-[9px] uppercase tracking-[0.28em] text-ivory/60 sm:text-[10px] sm:tracking-[0.3em]",
                                             children: "Destination"
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.tsx",
@@ -1054,7 +1054,7 @@ function Home() {
                                             className: "space-y-2",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                    className: "text-[10px] uppercase tracking-[0.3em] text-ivory/60",
+                                                    className: "text-[9px] uppercase tracking-[0.28em] text-ivory/60 sm:text-[10px] sm:tracking-[0.3em]",
                                                     children: "Date de départ"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/page.tsx",
@@ -1080,7 +1080,7 @@ function Home() {
                                             className: "space-y-2",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                    className: "text-[10px] uppercase tracking-[0.3em] text-ivory/60",
+                                                    className: "text-[9px] uppercase tracking-[0.28em] text-ivory/60 sm:text-[10px] sm:tracking-[0.3em]",
                                                     children: "Date de retour"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/page.tsx",
@@ -1112,7 +1112,7 @@ function Home() {
                                     className: "space-y-2",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                            className: "text-[10px] uppercase tracking-[0.3em] text-ivory/60",
+                                            className: "text-[9px] uppercase tracking-[0.28em] text-ivory/60 sm:text-[10px] sm:tracking-[0.3em]",
                                             children: "Profil voyageur"
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.tsx",
@@ -1171,7 +1171,7 @@ function Home() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-                className: "border-t border-white/10 px-6 py-10 text-center text-[10px] uppercase tracking-[0.35em] text-ivory/50",
+                className: "border-t border-white/10 px-5 py-8 text-center text-[9px] uppercase tracking-[0.3em] text-ivory/50 sm:px-6 sm:py-10 sm:text-[10px] sm:tracking-[0.35em]",
                 children: "TimeTravel Agency · Confidentialité absolue · 2026"
             }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
@@ -1179,7 +1179,7 @@ function Home() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "fixed bottom-4 right-4 z-50 w-[90vw] max-w-[320px] text-sm sm:bottom-6 sm:right-6 sm:w-[320px]",
+                className: "fixed bottom-4 right-4 z-50 w-[92vw] max-w-[320px] text-sm sm:bottom-6 sm:right-6 sm:w-[320px]",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                         className: "flex w-full items-center justify-between rounded-full border border-white/10 bg-midnight/80 px-4 py-3 text-[10px] uppercase tracking-[0.3em] text-ivory/70 animate-glowPulse",

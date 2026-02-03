@@ -89,3 +89,6 @@ If you are not trying to use TypeScript, please remove the tsconfig.json file fr
 [00:54:38.984] Server  LOG     ✓ Compiled in 170ms
 [00:55:04.949] Server  LOG     ✓ Compiled in 142ms
 [00:55:10.418] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:13:34.134] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:14:50.013] Server  LOG     ✓ Compiled in 1089ms
+[01:16:27.074] Server  LOG     ✓ Compiled in 213ms

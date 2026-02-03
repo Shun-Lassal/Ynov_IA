@@ -134,7 +134,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-noir text-ivory">
-      <header className="relative min-h-[100vh] overflow-hidden">
+      <header className="relative min-h-[92vh] overflow-hidden sm:min-h-[100vh]">
         <video
           key={heroIndex}
           className="absolute inset-0 h-full w-full object-cover opacity-65 hero-mask animate-fadeIn"
@@ -149,9 +149,9 @@ export default function Home() {
         <div className="absolute inset-0 bg-hero-weave opacity-40" />
         <div className="absolute bottom-0 left-0 right-0 h-28 bg-gradient-to-b from-transparent to-noir" />
         <div className="pointer-events-none absolute inset-x-0 top-24 h-px bg-gradient-to-r from-transparent via-champagne/60 to-transparent animate-sweep" />
-        <div className="relative z-10 mx-auto flex w-full max-w-6xl flex-col gap-16 px-6 pb-24 pt-10">
-          <nav className="flex items-center justify-between text-[11px] uppercase tracking-[0.35em] text-ivory/70 animate-fadeUp">
-            <span className="font-[var(--font-display)] text-sm tracking-[0.45em] text-ivory">
+        <div className="relative z-10 mx-auto flex w-full max-w-6xl flex-col gap-10 px-5 pb-16 pt-8 sm:gap-16 sm:px-6 sm:pb-24 sm:pt-10">
+          <nav className="flex items-center justify-between text-[10px] uppercase tracking-[0.3em] text-ivory/70 animate-fadeUp sm:text-[11px] sm:tracking-[0.35em]">
+            <span className="font-[var(--font-display)] text-xs tracking-[0.4em] text-ivory sm:text-sm sm:tracking-[0.45em]">
               TimeTravel Agency
             </span>
             <div className="hidden gap-8 md:flex">
@@ -160,33 +160,33 @@ export default function Home() {
               <a className="hover:text-champagne transition" href="#concierge">Concierge</a>
               <a className="hover:text-champagne transition" href="#reservation">Réservation</a>
             </div>
-            <button className="rounded-full border border-white/20 px-5 py-2 text-[10px] tracking-[0.3em] transition hover:border-champagne hover:text-champagne">
+            <button className="rounded-full border border-white/20 px-4 py-2 text-[9px] tracking-[0.25em] transition hover:border-champagne hover:text-champagne sm:px-5 sm:text-[10px] sm:tracking-[0.3em]">
               Accès privé
             </button>
           </nav>
 
           <section className="grid items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]">
             <div className="space-y-8 animate-fadeUp">
-              <p className="text-[11px] uppercase tracking-[0.5em] text-champagne">
+              <p className="text-[10px] uppercase tracking-[0.45em] text-champagne sm:text-[11px] sm:tracking-[0.5em]">
                 Chrono concierge
               </p>
-              <h1 className="font-[var(--font-display)] text-4xl leading-tight md:text-5xl lg:text-6xl">
+              <h1 className="font-[var(--font-display)] text-3xl leading-tight sm:text-4xl md:text-5xl lg:text-6xl">
                 Des voyages temporels épurés, calibrés pour l’extraordinaire.
               </h1>
-              <p className="max-w-xl text-base text-ivory/70 md:text-lg">
+              <p className="max-w-xl text-sm text-ivory/70 sm:text-base md:text-lg">
                 TimeTravel Agency orchestre des escapades privées avec une précision horlogère :
                 protocole discret, sécurité totale et élégance intemporelle.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a
                   href="#destinations"
-                  className="rounded-full bg-champagne px-6 py-3 text-xs font-semibold uppercase tracking-[0.3em] text-noir shadow-halo transition hover:scale-[1.02]"
+                  className="w-full rounded-full bg-champagne px-6 py-3 text-xs font-semibold uppercase tracking-[0.3em] text-noir shadow-halo transition hover:scale-[1.02] sm:w-auto"
                 >
                   Explorer les époques
                 </a>
                 <a
                   href="#reservation"
-                  className="rounded-full border border-white/30 px-6 py-3 text-xs uppercase tracking-[0.25em] text-ivory/80 transition hover:border-champagne hover:text-champagne"
+                  className="w-full rounded-full border border-white/30 px-6 py-3 text-xs uppercase tracking-[0.25em] text-ivory/80 transition hover:border-champagne hover:text-champagne sm:w-auto"
                 >
                   Demander une invitation
                 </a>
@@ -194,9 +194,9 @@ export default function Home() {
             </div>
 
             <div className="space-y-6">
-              <div className="glass-surface rounded-[28px] p-6 shadow-glass animate-fadeUp">
-                <p className="text-[11px] uppercase tracking-[0.35em] text-champagne">Brief privé</p>
-                <p className="mt-4 text-lg font-semibold">Trois destinations. Une signature sur-mesure.</p>
+              <div className="glass-surface rounded-[24px] p-5 shadow-glass animate-fadeUp sm:rounded-[28px] sm:p-6">
+                <p className="text-[10px] uppercase tracking-[0.3em] text-champagne sm:text-[11px] sm:tracking-[0.35em]">Brief privé</p>
+                <p className="mt-4 text-base font-semibold sm:text-lg">Trois destinations. Une signature sur-mesure.</p>
                 <p className="mt-3 text-sm text-ivory/70">
                   Nos itinéraires sont conçus comme des pièces uniques, validées par nos chronistes.
                 </p>
@@ -210,10 +210,10 @@ export default function Home() {
                 ].map((item) => (
                   <div
                     key={item.label}
-                    className="rounded-[22px] border border-white/10 bg-midnight/70 p-4 animate-fadeUp"
+                    className="rounded-[20px] border border-white/10 bg-midnight/70 p-4 animate-fadeUp sm:rounded-[22px]"
                   >
-                    <p className="text-[10px] uppercase tracking-[0.3em] text-ivory/50">{item.label}</p>
-                    <p className="mt-3 text-lg font-semibold text-champagne">{item.value}</p>
+                    <p className="text-[9px] uppercase tracking-[0.28em] text-ivory/50 sm:text-[10px] sm:tracking-[0.3em]">{item.label}</p>
+                    <p className="mt-3 text-base font-semibold text-champagne sm:text-lg">{item.value}</p>
                   </div>
                 ))}
               </div>
@@ -222,12 +222,12 @@ export default function Home() {
         </div>
       </header>
 
-      <section id="agency" className="mx-auto max-w-6xl px-6 py-24">
-        <div className="glass-surface rounded-[36px] p-10 md:p-16 animate-fadeUp">
+      <section id="agency" className="mx-auto max-w-6xl px-5 py-16 sm:px-6 sm:py-24">
+        <div className="glass-surface rounded-[32px] p-8 animate-fadeUp sm:rounded-[36px] sm:p-10 md:p-16">
           <div className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr]">
             <div className="space-y-6">
-              <p className="text-[11px] uppercase tracking-[0.5em] text-champagne">Présentation</p>
-              <h2 className="font-[var(--font-display)] text-3xl md:text-4xl">
+              <p className="text-[10px] uppercase tracking-[0.45em] text-champagne sm:text-[11px] sm:tracking-[0.5em]">Présentation</p>
+              <h2 className="font-[var(--font-display)] text-2xl sm:text-3xl md:text-4xl">
                 Une maison de voyages temporels confidentielle et radicalement élégante.
               </h2>
               <p className="text-ivory/70">
@@ -235,10 +235,10 @@ export default function Home() {
                 offrir des expériences immersives et sécurisées, sans ostentation.
               </p>
               <div className="flex flex-wrap gap-4">
-                <button className="rounded-full border border-white/20 px-5 py-2 text-[10px] uppercase tracking-[0.3em] text-ivory/70">
+                <button className="rounded-full border border-white/20 px-4 py-2 text-[9px] uppercase tracking-[0.25em] text-ivory/70 sm:px-5 sm:text-[10px] sm:tracking-[0.3em]">
                   Charte éthique
                 </button>
-                <button className="rounded-full border border-white/20 px-5 py-2 text-[10px] uppercase tracking-[0.3em] text-ivory/70">
+                <button className="rounded-full border border-white/20 px-4 py-2 text-[9px] uppercase tracking-[0.25em] text-ivory/70 sm:px-5 sm:text-[10px] sm:tracking-[0.3em]">
                   Conseil scientifique
                 </button>
               </div>
@@ -251,10 +251,10 @@ export default function Home() {
               ].map((item) => (
                 <div
                   key={item.label}
-                  className="rounded-[26px] border border-white/10 bg-midnight/70 p-6 animate-fadeUp"
+                  className="rounded-[24px] border border-white/10 bg-midnight/70 p-5 animate-fadeUp sm:rounded-[26px] sm:p-6"
                 >
-                  <p className="text-[11px] uppercase tracking-[0.35em] text-ivory/50">{item.label}</p>
-                  <p className="mt-3 text-2xl font-semibold text-champagne">{item.value}</p>
+                  <p className="text-[10px] uppercase tracking-[0.3em] text-ivory/50 sm:text-[11px] sm:tracking-[0.35em]">{item.label}</p>
+                  <p className="mt-3 text-xl font-semibold text-champagne sm:text-2xl">{item.value}</p>
                 </div>
               ))}
             </div>
@@ -262,31 +262,31 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="destinations" className="mx-auto max-w-6xl px-6 py-24">
+      <section id="destinations" className="mx-auto max-w-6xl px-5 py-16 sm:px-6 sm:py-24">
         <div className="flex flex-wrap items-end justify-between gap-6">
           <div>
-            <p className="text-[11px] uppercase tracking-[0.5em] text-champagne">Galerie</p>
-            <h2 className="mt-4 font-[var(--font-display)] text-3xl md:text-4xl">
+            <p className="text-[10px] uppercase tracking-[0.45em] text-champagne sm:text-[11px] sm:tracking-[0.5em]">Galerie</p>
+            <h2 className="mt-4 font-[var(--font-display)] text-2xl sm:text-3xl md:text-4xl">
               Trois époques, trois signatures d’exception.
             </h2>
           </div>
           <a
             href="#reservation"
-            className="rounded-full border border-champagne/60 px-6 py-3 text-xs uppercase tracking-[0.3em] text-champagne transition hover:bg-champagne hover:text-noir"
+            className="w-full rounded-full border border-champagne/60 px-6 py-3 text-xs uppercase tracking-[0.3em] text-champagne transition hover:bg-champagne hover:text-noir sm:w-auto"
           >
             CTA vers les destinations
           </a>
         </div>
 
-        <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-10 grid gap-6 sm:mt-12 sm:gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {destinations.map((card) => (
             <article
               key={card.era}
-              className="group relative flex h-full flex-col overflow-hidden rounded-[28px] border border-white/10 bg-midnight/80 p-6 shadow-deep transition duration-500 hover:-translate-y-2 animate-fadeUp"
+              className="group relative flex h-full flex-col overflow-hidden rounded-[24px] border border-white/10 bg-midnight/80 p-5 shadow-deep transition duration-500 hover:-translate-y-2 animate-fadeUp sm:rounded-[28px] sm:p-6"
             >
               <div className="pointer-events-none absolute inset-0 card-sheen opacity-0 transition duration-500 group-hover:opacity-100" />
               <div className="relative z-10 flex h-full flex-col">
-                <div className="flex items-center justify-between text-[11px] uppercase tracking-[0.3em] text-ivory/60">
+                <div className="flex items-center justify-between text-[10px] uppercase tracking-[0.28em] text-ivory/60 sm:text-[11px] sm:tracking-[0.3em]">
                   <span>{card.era}</span>
                   <span className="rounded-full border border-white/15 px-3 py-1 text-[9px]">
                     Prestige
@@ -294,7 +294,7 @@ export default function Home() {
                 </div>
                 <div className="relative mt-6 overflow-hidden rounded-2xl border border-white/10">
                   <video
-                    className="h-40 w-full object-cover transition duration-500 group-hover:scale-105"
+                    className="h-36 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-40"
                     autoPlay
                     muted
                     loop
@@ -308,9 +308,9 @@ export default function Home() {
                     Projection immersive
                   </div>
                 </div>
-                <h3 className="mt-6 font-[var(--font-display)] text-2xl">{card.name}</h3>
-                <p className="mt-5 text-sm text-ivory/70">{card.summary}</p>
-                <ul className="mt-5 flex-1 space-y-3 text-sm text-ivory/70">
+                <h3 className="mt-6 font-[var(--font-display)] text-xl sm:text-2xl">{card.name}</h3>
+                <p className="mt-4 text-sm text-ivory/70 sm:mt-5">{card.summary}</p>
+                <ul className="mt-4 flex-1 space-y-3 text-sm text-ivory/70 sm:mt-5">
                   {card.details.map((detail) => (
                     <li key={detail} className="flex items-start gap-2">
                       <span className="mt-1 h-2 w-2 rounded-full bg-champagne" />
@@ -320,7 +320,7 @@ export default function Home() {
                 </ul>
                 <a
                   href="#reservation"
-                  className="mt-10 mt-auto inline-flex items-center justify-center rounded-full border border-white/20 px-5 py-2 text-[10px] uppercase tracking-[0.3em] text-ivory/70 transition group-hover:border-champagne group-hover:text-champagne"
+                  className="mt-8 mt-auto inline-flex items-center justify-center rounded-full border border-white/20 px-5 py-2 text-[10px] uppercase tracking-[0.3em] text-ivory/70 transition group-hover:border-champagne group-hover:text-champagne sm:mt-10"
                 >
                   Consulter l’itinéraire
                 </a>
@@ -330,11 +330,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="concierge" className="relative mx-auto max-w-6xl px-6 py-24">
-        <div className="grid gap-12 rounded-[44px] border border-white/10 bg-midnight/80 p-10 md:grid-cols-[1.05fr_0.95fr] md:p-16 animate-fadeUp">
+      <section id="concierge" className="relative mx-auto max-w-6xl px-5 py-16 sm:px-6 sm:py-24">
+        <div className="grid gap-10 rounded-[36px] border border-white/10 bg-midnight/80 p-8 md:grid-cols-[1.05fr_0.95fr] md:p-16 animate-fadeUp sm:gap-12 sm:rounded-[44px] sm:p-10">
           <div className="space-y-6">
-            <p className="text-[11px] uppercase tracking-[0.5em] text-champagne">Concierge IA</p>
-            <h2 className="font-[var(--font-display)] text-3xl md:text-4xl">
+            <p className="text-[10px] uppercase tracking-[0.45em] text-champagne sm:text-[11px] sm:tracking-[0.5em]">Concierge IA</p>
+            <h2 className="font-[var(--font-display)] text-2xl sm:text-3xl md:text-4xl">
               Un agent discret pour affiner chaque décision.
             </h2>
             <p className="text-ivory/70">
@@ -351,7 +351,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex items-center justify-center">
-            <div className="relative w-full max-w-sm rounded-[32px] border border-white/10 bg-noir/80 p-6 shadow-deep animate-floatSoft">
+            <div className="relative w-full max-w-sm rounded-[28px] border border-white/10 bg-noir/80 p-5 shadow-deep animate-floatSoft sm:rounded-[32px] sm:p-6">
               <div className="flex items-center justify-between">
                 <div>
                   <p className="text-[10px] uppercase tracking-[0.3em] text-ivory/60">TimeTravel IA</p>
@@ -386,11 +386,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="reservation" className="mx-auto max-w-6xl px-6 pb-32 pt-10">
-        <div className="grid gap-12 rounded-[40px] border border-white/10 bg-midnight/80 p-10 md:grid-cols-[1.1fr_0.9fr] md:p-16 animate-fadeUp">
+      <section id="reservation" className="mx-auto max-w-6xl px-5 pb-24 pt-8 sm:px-6 sm:pb-32 sm:pt-10">
+        <div className="grid gap-10 rounded-[36px] border border-white/10 bg-midnight/80 p-8 md:grid-cols-[1.1fr_0.9fr] md:p-16 animate-fadeUp sm:gap-12 sm:rounded-[40px] sm:p-10">
           <div className="space-y-6">
-            <p className="text-[11px] uppercase tracking-[0.5em] text-champagne">Réservation</p>
-            <h2 className="font-[var(--font-display)] text-3xl md:text-4xl">
+            <p className="text-[10px] uppercase tracking-[0.45em] text-champagne sm:text-[11px] sm:tracking-[0.5em]">Réservation</p>
+            <h2 className="font-[var(--font-display)] text-2xl sm:text-3xl md:text-4xl">
               Réservez votre trajectoire privée, en toute discrétion.
             </h2>
             <p className="text-ivory/70">
@@ -404,7 +404,7 @@ export default function Home() {
 
           <form className="space-y-5">
             <div className="space-y-2">
-              <label className="text-[10px] uppercase tracking-[0.3em] text-ivory/60">
+              <label className="text-[9px] uppercase tracking-[0.28em] text-ivory/60 sm:text-[10px] sm:tracking-[0.3em]">
                 Destination
               </label>
               <select
@@ -422,7 +422,7 @@ export default function Home() {
             </div>
             <div className="grid gap-4 md:grid-cols-2">
               <div className="space-y-2">
-                <label className="text-[10px] uppercase tracking-[0.3em] text-ivory/60">
+                <label className="text-[9px] uppercase tracking-[0.28em] text-ivory/60 sm:text-[10px] sm:tracking-[0.3em]">
                   Date de départ
                 </label>
                 <input
@@ -432,7 +432,7 @@ export default function Home() {
                 />
               </div>
               <div className="space-y-2">
-                <label className="text-[10px] uppercase tracking-[0.3em] text-ivory/60">
+                <label className="text-[9px] uppercase tracking-[0.28em] text-ivory/60 sm:text-[10px] sm:tracking-[0.3em]">
                   Date de retour
                 </label>
                 <input
@@ -443,7 +443,7 @@ export default function Home() {
               </div>
             </div>
             <div className="space-y-2">
-              <label className="text-[10px] uppercase tracking-[0.3em] text-ivory/60">Profil voyageur</label>
+              <label className="text-[9px] uppercase tracking-[0.28em] text-ivory/60 sm:text-[10px] sm:tracking-[0.3em]">Profil voyageur</label>
               <textarea
                 className="min-h-[120px] w-full rounded-2xl border border-white/10 bg-noir/80 px-4 py-3 text-sm text-ivory"
                 placeholder="Décrivez vos attentes, préférences, allergies..."
@@ -460,11 +460,11 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="border-t border-white/10 px-6 py-10 text-center text-[10px] uppercase tracking-[0.35em] text-ivory/50">
+      <footer className="border-t border-white/10 px-5 py-8 text-center text-[9px] uppercase tracking-[0.3em] text-ivory/50 sm:px-6 sm:py-10 sm:text-[10px] sm:tracking-[0.35em]">
         TimeTravel Agency · Confidentialité absolue · 2026
       </footer>
 
-      <div className="fixed bottom-4 right-4 z-50 w-[90vw] max-w-[320px] text-sm sm:bottom-6 sm:right-6 sm:w-[320px]">
+      <div className="fixed bottom-4 right-4 z-50 w-[92vw] max-w-[320px] text-sm sm:bottom-6 sm:right-6 sm:w-[320px]">
         <button
           className="flex w-full items-center justify-between rounded-full border border-white/10 bg-midnight/80 px-4 py-3 text-[10px] uppercase tracking-[0.3em] text-ivory/70 animate-glowPulse"
           onClick={() => setChatOpen((value) => !value)}
