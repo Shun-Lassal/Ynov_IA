@@ -1,5 +1,5 @@
 # TimeTravel Agency — Webapp Interactive
-
+Projet Réalisé par Shun Lassal, Dylan Chatelain, Victor Laborde, Tom Frégonèse
 Landing page premium pour une agence de voyage temporel fictive, avec hero vidéo, destinations immersives et concierge IA.
 
 ## 🛠️ Stack technique

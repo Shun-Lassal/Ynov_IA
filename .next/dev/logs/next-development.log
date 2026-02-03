@@ -95,3 +95,4 @@ If you are not trying to use TypeScript, please remove the tsconfig.json file fr
 [01:22:08.229] Server  LOG     ✓ Compiled in 195ms
 [01:29:06.778] Server  LOG     ✓ Compiled in 196ms
 [01:39:09.846] Server  LOG     ✓ Compiled in 196ms
+[01:52:26.439] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
