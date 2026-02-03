@@ -280,7 +280,7 @@ export default function Home() {
             href="#reservation"
             className="w-full rounded-full border border-champagne/60 px-6 py-3 text-xs uppercase tracking-[0.3em] text-champagne transition hover:bg-champagne hover:text-noir sm:w-auto"
           >
-            CTA vers les destinations
+            Découvrir les destinations
           </a>
         </div>
 
