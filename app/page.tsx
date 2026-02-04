@@ -369,7 +369,7 @@ export default function Home() {
               </div>
               <div className="mt-6 space-y-4 text-sm text-ivory/70">
                 <div className="rounded-2xl bg-white/5 p-4">
-                  Bonjour Shun, souhaitez-vous une expérience art, nature ou futurisme ?
+                  Bonjour, souhaitez-vous une expérience art, nature ou futurisme ?
                 </div>
                 <div className="ml-auto rounded-2xl bg-champagne/20 p-4 text-right text-ivory">
                   Art + gastronomie privée.
